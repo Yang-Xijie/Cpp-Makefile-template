@@ -6,13 +6,13 @@
 
 ### 压缩包
 
-- [GitHub](https://github.com/Yang-Xijie/C-Makefile-template/archive/refs/heads/main.zip)
-- [Gitee](https://gitee.com/yang-xijie/C-Makefile-template/repository/archive/main.zip)
+- [GitHub](https://github.com/Yang-Xijie/Cpp-Makefile-template/archive/refs/heads/main.zip)
+- [Gitee](https://gitee.com/yang-xijie/Cpp-Makefile-template/repository/archive/main.zip)
 
 ### Git
 
 ```sh
-$ git clone https://github.com/Yang-Xijie/C-Makefile-template.git <project_name> # 使用Git克隆仓库到名为project_name的文件夹
+$ git clone https://github.com/Yang-Xijie/Cpp-Makefile-template.git <project_name> # 使用Git克隆仓库到名为project_name的文件夹
 $ cd <project_name> # 进入文件夹
 $ rm -rf .git # 移除Git管理
 $ rm -rf LISENSE README # (可选)删除原仓库协议和说明文档

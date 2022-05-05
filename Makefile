@@ -7,18 +7,19 @@
 # [Info]
 # Project
 PROJECT_NAME = hello
-SOURCES = main.c # All source files of the project.
+SOURCES = main.cpp # All source files of the project.
 ARGUMENTS = a1 a2 a3 # The arguments of your executable, seperated by spaces.
 # Build
 BUILD_FOLDER = build
 EXECUTABLE = ./${BUILD_FOLDER}/${PROJECT_NAME}
 EXECUTABLE_DEBUG = ./${EXECUTABLE}-debug
 # Tools
-CC = clang
+CC = clang++
 CDB = lldb
-CFLAGS = -std=c11 -W -Wall
+CFLAGS = -std=c++17 -W -Wall
 # `-std=<value>`
 #     Language standard to compile for
+#     Check https://clang.llvm.org/cxx_status.html
 # `-g`
 #     Generate source-level debug information
 # `-W -Wall`

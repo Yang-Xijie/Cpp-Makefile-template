@@ -9,7 +9,7 @@
         {
             // The reader-friendly name to appear in the Debug launch configuration drop-down.
             // 在VSCode侧边栏Run那里看到的名字
-            "name": "C Debug",
+            "name": "C++ Debug",
             /* ------------ */
             // Indicates the underlying debugger being used. Must be cppvsdbg when using the Visual Studio Windows debugger, and cppdbg when using GDB or LLDB.
             // VSCode的调试方式 C和C++代码都使用`cppdbg`
